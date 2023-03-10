@@ -24,7 +24,7 @@ function Header (props) {
                             maxHeight: { xs: 64, md: 64 },
                             maxWidth: { xs: 64, md: 64 },
                         }}
-                        alt="The house from the offer."
+                        alt="The house from the offe r."
                         src={logo}
                     />
                     <Typography
