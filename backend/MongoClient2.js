@@ -13,7 +13,7 @@ export const mongoDB = mongo.connect()
 // import { mongoDB } from '../utils/MongoClient'
 
 const handler = async (event) => {
-  //(await mongoDB).db('RandomPost').collection('AAAAAA').insertOne({ probando: 'BBBBBB' })
+  (await mongoDB).db('RandomPost').collection('AAAAAA').insertOne({ probando: 'BBBBBB' })
   console.log('SAD')
   return {
     statusCode: 200,
