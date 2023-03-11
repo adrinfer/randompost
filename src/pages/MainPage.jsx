@@ -19,7 +19,7 @@ export default function MainPAge () {
       <h1>Oopsadffffffffffffffffffs!</h1>
       <p>Sorry, an unexpected error has occasdddddddddddddurred.</p>
       <p>
-        aaaaaaaaaaaaaaaaaabbbb {joke}
+        aaaaaaaaaaaaaaaaaabbbbzzzzzzzz {joke}
       </p>
     </div>
   )
