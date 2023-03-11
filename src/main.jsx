@@ -11,6 +11,12 @@ import {
 import ErrorPage from './pages/errorPage'
 import MainPAge from './pages/MainPage'
 
+window.addEventListener('beforeunload', (event) => {
+  console.log("SALIENDO")
+  event.preventDefault()
+
+})
+
 const router = createBrowserRouter([
   {
     path: '/',
