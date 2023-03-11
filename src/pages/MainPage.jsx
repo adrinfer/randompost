@@ -4,7 +4,7 @@ export default function MainPAge () {
   const [joke, setJoke] = useState()
 
   useEffect(() => {
-    fetch('http://localhost:8888/.netlify/functions/funcionPrueba', {
+    fetch('/.netlify/functions/funcionPrueba', {
       headers: { Accept: 'application/json' }
     }).then(response => {
       return response.json()
