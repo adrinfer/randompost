@@ -6,9 +6,9 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 import FacebookIcon from '@mui/icons-material/Facebook'
 import TwitterIcon from '@mui/icons-material/Twitter'
 import { createTheme, ThemeProvider } from '@mui/material/styles'
-import Header from './components/Header'
-import FooterBar from './components/FooterBar'
-import Footer from './components/Footer'
+import Header from './components/fixed/Header'
+import FooterBar from './components/fixed/FooterBar'
+import Footer from './components/fixed/Footer'
 import { Box } from '@mui/system';
 
 import logo from './assets/pixil-frame-0.png'

@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import { AppBar, Box } from '@mui/material';
 
-import logo from '../assets/pixil-frame-0.png'
+import logo from '../../assets/pixil-frame-0.png'
 
 function Header (props) {
     const { sections, title } = props;

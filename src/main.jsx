@@ -9,6 +9,7 @@ import {
   RouterProvider,
 } from 'react-router-dom'
 import ErrorPage from './pages/errorPage'
+import MainPAge from './pages/MainPage'
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [{
       path: '/ab',
-      element: <div><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />AAAAAAAAAA</div>,
+      element: <MainPAge />,
       errorElement: <ErrorPage />
     }
     ]
