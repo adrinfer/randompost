@@ -34,7 +34,8 @@
   },
   "eslintConfig": {
     "extends": [
-      "standard"
+      "standard",
+      "plugin:react/recommended"
     ]
   }
 }
